@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2232755-311c-421e-bdde-1c8d9ad9ffe3" name="Changes" comment="create models">
-      <change afterPath="$PROJECT_DIR$/repository/city_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/target_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/type_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/target_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/target_model.py" afterDir="false" />
+    <list default="true" id="c2232755-311c-421e-bdde-1c8d9ad9ffe3" name="Changes" comment="create repository">
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controlers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controlers/target_controler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexing.SQL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/target_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/repository/target_repository.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.app.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -49,6 +53,35 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\holocost_app" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="holocost_app" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -114,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727350952870</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create repository">
+      <option name="closed" value="true" />
+      <created>1727352046498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727352046498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,6 +165,7 @@
     <MESSAGE value="fixt insertions" />
     <MESSAGE value="create repo to database" />
     <MESSAGE value="create models" />
-    <option name="LAST_COMMIT_MESSAGE" value="create models" />
+    <MESSAGE value="create repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="create repository" />
   </component>
 </project>

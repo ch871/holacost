@@ -20,6 +20,14 @@ def insert_target(target: Target):
             return Failure(str(e))
 
 
+def get_all_targets():
+    with session_factory() as session:
+        return Maybe.from_optional(
+            session.query(Target)
+            .all()
+        )
+
+
 def find_target_by_id(target_id: int) -> Optional[Target]:
     with session_factory() as session:
         return Maybe.from_optional(

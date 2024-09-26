@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2232755-311c-421e-bdde-1c8d9ad9ffe3" name="Changes" comment="create repository">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controlers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controlers/target_controler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexing.SQL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c2232755-311c-421e-bdde-1c8d9ad9ffe3" name="Changes" comment="create end point">
+      <change afterPath="$PROJECT_DIR$/complecat_query.SQL" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/target_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/repository/target_repository.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +150,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727352046498</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="index sql">
+      <option name="closed" value="true" />
+      <created>1727354575928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727354575928</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create end point">
+      <option name="closed" value="true" />
+      <created>1727354630722</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727354630722</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,6 +177,8 @@
     <MESSAGE value="create repo to database" />
     <MESSAGE value="create models" />
     <MESSAGE value="create repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="create repository" />
+    <MESSAGE value="index sql" />
+    <MESSAGE value="create end point" />
+    <option name="LAST_COMMIT_MESSAGE" value="create end point" />
   </component>
 </project>

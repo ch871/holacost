@@ -22,10 +22,7 @@ def insert_target(target: Target):
 
 def get_all_targets():
     with session_factory() as session:
-        return Maybe.from_optional(
-            session.query(Target)
-            .all()
-        )
+        return session.query(Target).all()
 
 
 def find_target_by_id(target_id: int) -> Optional[Target]:

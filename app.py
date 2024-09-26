@@ -1,8 +1,8 @@
 from repository.database import create_tables
 import logging
 from flask import Flask
-from controlers.target_controler import target_bluprint,get_all_targets
-from dictalchemy.utils import asdict
+from controlers.target_controler import target_bluprint
+
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 

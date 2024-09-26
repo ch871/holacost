@@ -20,9 +20,9 @@ def object_as_dict(obj):
     return {c.key: getattr(obj, c.key) for c in inspect(obj).mapper.column_attrs}
 
 
-@target_bluprint.route('/mission', methods=['GET'])
+@target_bluprint.route('/', methods=['GET'])
 def get_all():
     targets = get_all_targets()
     if targets:
-        return jsonify([object_as_dict(target) for target in targets.unwrap()]), 200
+        return jsonify([asdict(x) for x in get_all_targets()]), 200
     return jsonify([]), 404

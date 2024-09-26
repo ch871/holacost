@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2232755-311c-421e-bdde-1c8d9ad9ffe3" name="Changes" comment="finished and debug sql queries">
-      <change afterPath="$PROJECT_DIR$/tyur_bayot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_queries/insertion.SQL" beforeDir="false" afterPath="$PROJECT_DIR$/sql_queries/insertion.SQL" afterDir="false" />
-    </list>
+    <list default="true" id="c2232755-311c-421e-bdde-1c8d9ad9ffe3" name="Changes" comment="sid repository created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727358235963</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sid repository created">
+      <option name="closed" value="true" />
+      <created>1727360712520</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727360712520</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +205,7 @@
     <MESSAGE value="create end point" />
     <MESSAGE value="packaging all sql" />
     <MESSAGE value="finished and debug sql queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished and debug sql queries" />
+    <MESSAGE value="sid repository created" />
+    <option name="LAST_COMMIT_MESSAGE" value="sid repository created" />
   </component>
 </project>

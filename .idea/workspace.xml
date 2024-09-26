@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2232755-311c-421e-bdde-1c8d9ad9ffe3" name="Changes" comment="create repo to database">
-      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/city_nodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/country_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/target_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/target_type_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c2232755-311c-421e-bdde-1c8d9ad9ffe3" name="Changes" comment="create models">
+      <change afterPath="$PROJECT_DIR$/repository/city_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/target_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/type_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/target_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/target_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727346534405</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create models">
+      <option name="closed" value="true" />
+      <created>1727350952870</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727350952870</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,6 +123,7 @@
     <MESSAGE value="create config" />
     <MESSAGE value="fixt insertions" />
     <MESSAGE value="create repo to database" />
-    <option name="LAST_COMMIT_MESSAGE" value="create repo to database" />
+    <MESSAGE value="create models" />
+    <option name="LAST_COMMIT_MESSAGE" value="create models" />
   </component>
 </project>

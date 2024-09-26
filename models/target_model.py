@@ -15,5 +15,6 @@ class Target(Base):
 
     tipe = relationship("Type", back_populates="targets")
     city = relationship("City", back_populates="targets")
+
     def __repr__(self):
         return f"target_industry={self.target_industry}, target_priority={self.target_priority}"

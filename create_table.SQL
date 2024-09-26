@@ -20,7 +20,7 @@ create table if not exists target_types (
 
 create table if not exists targets (
     target_id serial primary key,
-    target_industry varchar(255) unique not null,
+    target_industry varchar(255) not null,
     city_id int not null,
     target_type_id int,
 	target_priority int,

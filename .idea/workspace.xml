@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2232755-311c-421e-bdde-1c8d9ad9ffe3" name="Changes" comment="sql tables are created">
-      <change afterPath="$PROJECT_DIR$/insertion.SQL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_table.SQL" beforeDir="false" afterPath="$PROJECT_DIR$/create_table.SQL" afterDir="false" />
-    </list>
+    <list default="true" id="c2232755-311c-421e-bdde-1c8d9ad9ffe3" name="Changes" comment="create config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,9 +26,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/USER/PycharmProjects/holocost_app"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PycharmProjects\holocost_app" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,11 +59,29 @@
       <option name="project" value="LOCAL" />
       <updated>1727337833187</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="insert data to sql tables">
+      <option name="closed" value="true" />
+      <created>1727342795016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727342795016</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create config">
+      <option name="closed" value="true" />
+      <created>1727342971174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727342971174</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sql tables are created" />
-    <option name="LAST_COMMIT_MESSAGE" value="sql tables are created" />
+    <MESSAGE value="insert data to sql tables" />
+    <MESSAGE value="create config" />
+    <option name="LAST_COMMIT_MESSAGE" value="create config" />
   </component>
 </project>
